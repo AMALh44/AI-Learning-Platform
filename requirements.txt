@@ -1,46 +1,48 @@
-# Flask Web Framework
+# --- Core Web App ---
 Flask
 gunicorn
+Werkzeug
+python-dotenv
 
-# OpenRouter API & HTTP Requests
+# --- HTTP and API Communication ---
 requests
+beautifulsoup4
 
-# AI & LLM Tools
+# --- AI & NLP Libraries ---
 langchain
 langchain-community
 huggingface-hub
 sentence-transformers
 GPT4All
 
-# Speech Recognition & TTS
-SpeechRecognition
-PyAudio  
-pyttsx3
-pydub
+# --- Embedding & Vector DB ---
+chromadb
+faiss-cpu
 
-# PDF & DOCX File Processing
+# --- Document Handling ---
 PyPDF2
 pdfplumber
 python-docx
 
-# Vector DB & Embedding
-chromadb
-faiss-cpu
+# --- Voice Processing (Fixed for Render) ---
+SpeechRecognition
+sounddevice       # Replaces PyAudio
+pydub
+pyttsx3
 
-# Text Preprocessing
-beautifulsoup4
+# --- NLP & ML ---
 nltk
+scikit_learn
+torch
+transformers
 
-# Utilities & Core Libraries
-Werkzeug
-python-dotenv
+# --- Utility ---
 uuid
 pytz
-
-# If using language model files locally
-# transformers
-# torch
-
-
-sounddevice
-numpy
+tqdm
+joblib
+typing_extensions
+zipp
+importlib_resources
+coloredlogs
+humanfriendly
